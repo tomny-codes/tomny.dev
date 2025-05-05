@@ -1,4 +1,12 @@
-import { Box, Container, Typography, Paper, Chip, Stack } from "@mui/material";
+import {
+  Box,
+  Container,
+  Typography,
+  Paper,
+  Chip,
+  Stack,
+  Avatar,
+} from "@mui/material";
 
 const About = () => {
   return (
@@ -8,21 +16,30 @@ const About = () => {
           <Typography variant="h4" component="h2" gutterBottom>
             About Me
           </Typography>
+          <Avatar
+            src="/turtle.jpg" // Replace with your image
+            alt="Tom"
+            sx={{
+              width: { xs: 120, md: 160 },
+              height: { xs: 120, md: 160 },
+              mx: "auto",
+            }}
+          />
           <Typography variant="body1" color="text.secondary" paragraph>
             Hey, I'm Tom! Nice to meet you! 👋
           </Typography>
           <Typography variant="body1" color="text.secondary" paragraph>
-            I’m a developer passionate about building systems from the ground up
+            I'm a developer passionate about building systems from the ground up
             and constantly pushing into new technical territory. My curiosity
             drives me to explore emerging technologies and frameworks that
             challenge my thinking and expand my toolkit.
           </Typography>
           <Typography variant="body1" color="text.secondary" paragraph>
-            Lately, I’ve been diving into areas like{" "}
+            Lately, I've been diving into areas like{" "}
             <strong>game development</strong>, <strong>blockchain</strong>{" "}
             systems, and experimenting with{" "}
             <strong>AI and machine learning</strong>. I enjoy turning complex
-            ideas into clean, functional products — and I’m always learning,
+            ideas into clean, functional products — and I'm always learning,
             always shipping.
           </Typography>
           <Typography variant="subtitle1" sx={{ mt: 2, fontWeight: 500 }}>

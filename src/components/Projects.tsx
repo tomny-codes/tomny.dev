@@ -76,7 +76,7 @@ const Projects = () => {
                   alt={project.title}
                   sx={{
                     width: "100%",
-                    height: 400, // Adjust height as needed
+                    height: { xs: 200, md: 400 },
                     objectFit: "cover", // Ensures the image fills the space while maintaining its aspect ratio
                     objectPosition: "center", // Centers the image in the available space
                   }}

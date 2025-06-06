@@ -53,7 +53,7 @@ const projects = [
     ],
     image: "/portfolio.jpg",
     buttons: [
-      { text: "Source Code", link: "https://github.com/tomny-codes/tomny.dev" },
+      { text: "Source Code", link: "https://github.com/tomny-dev/tomny.dev" },
       { text: "Deployed Site", link: "https://tomny.dev" },
     ],
   },

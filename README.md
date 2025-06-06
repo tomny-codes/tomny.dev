@@ -2,6 +2,8 @@
 
 This is my personal website to showcase some of my projects and experience.
 
+[tomny.dev](https://tomny.dev/)
+
 Made from scratch with [Vite](https://vite.dev/), Typescript and [React](https://react.dev/)
 
 Styled with [Material UI](https://mui.com/material-ui/)

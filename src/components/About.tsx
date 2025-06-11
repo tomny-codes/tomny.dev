@@ -29,7 +29,7 @@ const About = () => {
             Hey, I'm Tom! Nice to meet you! 👋
           </Typography>
           <Typography variant="body1" color="text.secondary" paragraph>
-            I'm a developer passionate about building systems from the ground up
+            I'm a Full Stack Software Developer passionate about building systems from the ground up
             and constantly pushing into new technical territory. My curiosity
             drives me to explore emerging technologies and frameworks that
             challenge my thinking and expand my toolkit.
